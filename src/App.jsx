@@ -22,7 +22,7 @@ function App() {
       <h4 id="author">— {quote.writer}</h4>
       <div className="button-img-wrapper">
         <a id="tweet-quote" href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(quote.quote + ' — ' + quote.writer)}`} target="_blank" rel="noreferrer">
-          <img id="xlogo"  src={${import.meta.env.BASE_URL}xlogo.png} alt="Tweet this quote" />
+          <img id="xlogo" src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg" alt="Tweet this quote" />
         </a>
         <button className="btn btn-primary me-2" id="new-quote" onClick={generateQuote}>
           New Quote
